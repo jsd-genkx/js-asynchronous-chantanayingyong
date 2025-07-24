@@ -1,3 +1,4 @@
+//การ optimize sync จะทำให้แสดงผลไวขึ้น
 export const syncOptimize = () => {
 	const massiveNumber = 1_000_000_000;
 

@@ -12,6 +12,7 @@ const handlePromise = (promise) => {
 		.catch((error) => {
 			console.error("⚠️ Error:", error);
 		})
+		//เป็น optional ไว้ปิดจบ ไม่ว่าจะ success หรือ error
 		.finally(() => {
 			console.log("ℹ️ Order process finished. Ready for the next order!");
 		});

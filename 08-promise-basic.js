@@ -1,3 +1,4 @@
+//promise เหมือนการให้สิทธิพิเศษบาง Async ในการได้รันก่อน async อื่นๆ
 export const promiseBasic = () => {
 	// Create a promise
 	const myPromise = new Promise((resolve, reject) => {

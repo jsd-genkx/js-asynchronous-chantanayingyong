@@ -1,3 +1,4 @@
+//ข้อเสียของการใช้ sync-blocking = การรัน code ตามลำดับ บาง function อาจใช้เวลานาน แต่ถ้าแยก run จะไวกว่ามาก
 export const syncBlocking = () => {
 	const massiveNumber = 1_000_000_000n;
 

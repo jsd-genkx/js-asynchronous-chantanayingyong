@@ -1,3 +1,4 @@
+// synchronous = code ก็จะรันแล้วแสดงผลลัพธ์ตามลำดับ
 export const syncBasic = () => {
 	const logTwo = () => {
 		console.log(2);
@@ -14,5 +15,5 @@ export const syncBasic = () => {
 
 	console.log(4);
 };
-
+// ถ้าต้องการให้รันใน vs code เลย ให้เอา comment line ล่างออก
 // syncBasic();
